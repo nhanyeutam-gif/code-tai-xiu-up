@@ -1,6 +1,6 @@
 
 /* 
-    @   => TRAN DO DUC NGHIA
+    @   => NGUYEN NGOC VAN
     #   => LISTEN USERS
 */
 const request = require('request');
