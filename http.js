@@ -1,7 +1,7 @@
 // Router HTTP / HTTPS
-let mysqli = require('./app/Model/mysqli');
-let info = require('./app/Model/users/info');
-let sodu = require('./app/Model/users/sodu');
+let mysqli = require('./mysqli');
+let info = require('./users/info');
+let sodu = require('./users/sodu');
 let phien_game = require('./app/Controller/HTTP/server')
 let vanggame = require('./app/Controller/HTTP/napvang')
 let rutgame = require('./app/Controller/HTTP/rutvang')
