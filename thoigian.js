@@ -1,5 +1,5 @@
 /* 
-    Tac gia     : TRAN DO DUC NGHIA
+    Tac gia     : NGUYEN NGOC VAN
     Function    : GET TIME
 */
 let thoigian = function()
