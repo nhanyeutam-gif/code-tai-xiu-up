@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "@msgpack/msgpack": "^2.7.0",
-    "bcrypt": "^5.0.1",
+  "bcryptjs": "^2.4.3",
     "bluebird": "^3.7.2",
     "bson": "^4.4.0",
     "cors": "^2.8.5",
