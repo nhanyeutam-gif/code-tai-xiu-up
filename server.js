@@ -1,7 +1,7 @@
-let mysqli = require('../../Model/mysqli');
-let checkstring = require('../../Model/string');
-let info = require('../../Model/users/info');
-let sodu = require('../../Model/users/sodu');
+const mysqli = require('./mysqli');
+const checkstring = require('./string');
+const info = require('./info');
+const sodu = require('./sodu');
 
 module.exports = function (req, res) {
     let data = req.query;
