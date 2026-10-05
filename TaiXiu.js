@@ -1,5 +1,5 @@
-let mysqli = require('../../Model/mysqli');
-let checkstring = require('../../Model/string');
+let mysqli = require('../../mysqli');
+let checkstring = require('../../string');
 let validator = require('validator');
 let info = require('../../Model/users/info');
 let sodu = require('../../Model/users/sodu');
