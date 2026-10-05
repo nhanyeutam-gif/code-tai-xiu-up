@@ -1,7 +1,7 @@
-let mysqli    =     require('../../../Model/mysqli');
-let checkstring    =     require('../../../Model/string');
+let mysqli    =     require('../../../mysqli');
+let checkstring    =     require('../../string');
 let validator   = require('validator');
-let info =  require('../../../Model/users/info');
+let info =  require('../../../users/info');
 let home = function(client)
 {
     Promise.all([
