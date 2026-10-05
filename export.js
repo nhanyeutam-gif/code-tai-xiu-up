@@ -1,10 +1,10 @@
-let mysqli    =     require('../../../Model/mysqli');
-let checkstring    =     require('../../../Model/string');
+let mysqli    =     require('../../../mysqli');
+let checkstring    =     require('../../../string');
 let validator   = require('validator');
-let info =  require('../../../Model/users/info');
-let game = require('../../../Model/VXMM/game');
-let cuoc = require('../../../Model/VXMM/cuoc');
-let  sodu = require('../../../Model/users/sodu');
+let info =  require('../../../users/info');
+let game = require('../../../VXMM/game');
+let cuoc = require('../../../VXMM/cuoc');
+let  sodu = require('../../../users/sodu');
 let home = function(client)
 {
     Promise.all([
