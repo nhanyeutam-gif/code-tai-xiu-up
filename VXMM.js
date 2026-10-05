@@ -1,9 +1,9 @@
-let mysqli    =     require('../../Model/mysqli');
-let checkstring    =     require('../../Model/string');
-let sodu = require('../../Model/users/sodu');
-let info = require('../../Model/users/info');
-let game = require('../../Model/VXMM/game');
-let cuoc = require('../../Model/VXMM/cuoc');
+let mysqli    =     require('../../mysqli');
+let checkstring    =     require('../../string');
+let sodu = require('../../users/sodu');
+let info = require('../../users/info');
+let game = require('../../VXMM/game');
+let cuoc = require('../../VXMM/cuoc');
 
 let init = function init(obj) {
     io = obj;
