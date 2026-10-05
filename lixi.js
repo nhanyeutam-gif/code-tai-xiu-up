@@ -1,8 +1,8 @@
-let mysqli    =     require('../../../Model/mysqli');
-let checkstring    =     require('../../../Model/string');
+let mysqli    =     require('../../../mysqli');
+let checkstring    =     require('../../../string');
 let validator   = require('validator');
-let info    =     require('../../../Model/users/info');
-const sodu = require('../../../Model/users/sodu');
+let info    =     require('../../../users/info');
+const sodu = require('../../../users/sodu');
 
 let tao = function(client,data,socket)
 {
