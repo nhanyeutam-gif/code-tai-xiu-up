@@ -1,7 +1,7 @@
-let mysqli    =     require('../../Model/mysqli');
-let checkstring    =     require('../../Model/string');
-let sodu = require('../../Model/users/sodu');
-let info = require('../../Model/users/info');
+let mysqli    =     require('../../mysqli');
+let checkstring    =     require('../../string');
+let sodu = require('../../users/sodu');
+let info = require('../../users/info');
 let init = function init(obj){
 	io = obj;
 	GameCSMM();
