@@ -1,8 +1,8 @@
 var CronJob = require('cron').CronJob;
-let mysqli    =     require('../../Model/mysqli');
-let checkstring    =     require('../../Model/string');
-let sodu = require('../../Model/users/sodu');
-let info = require('../../Model/users/info');
+let mysqli    =     require('../../mysqli');
+let checkstring    =     require('../../string');
+let sodu = require('../../users/sodu');
+let info = require('../../users/info');
 
 let action_bot = function(data)
 {
