@@ -1,5 +1,5 @@
 
-let bcrypt = require('bcrypt');
+;const bcrypt = require('bcryptjs')
 let htmlspecialchars = require('htmlspecialchars');
 let thoigianget = function()
 {
