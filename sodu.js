@@ -1,6 +1,5 @@
-let mysqli      =     require('../../mysqli');
-let time        =     require('../../string');
-
+let mysqli = require('./mysqli');
+let time = require('./string');
 let sodu =  function(id,xuhientai,xuthaydoi,noidung,nguon,keycode)
 {
     if(!nguon) nguon = '';
