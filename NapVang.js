@@ -1,7 +1,7 @@
 const e = require('cors');
-let mysqli    =     require('../../../Model/mysqli');
-let checkstring    =     require('../../../Model/string');
-let sodu    =     require('../../../Model/users/sodu');
+let mysqli    =     require('../../../mysqli');
+let checkstring    =     require('../../../string');
+let sodu    =     require('../../../users/sodu');
 let captcha = require('../captcha/code');
 
 let request = require('request');
